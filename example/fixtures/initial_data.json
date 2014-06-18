@@ -1,0 +1,34 @@
+[
+  {
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "host1.example.com", 
+      "name": "Host 1"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "host2.example.com", 
+      "name": "Host 2"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "host3.example.com", 
+      "name": "Host 3"
+    }
+  },
+  {
+    "pk": 4, 
+    "model": "sites.site", 
+    "fields": {
+      "domain": "www.anotherhost.tld", 
+      "name": "This one is filtered out by SITES_FILTER"
+    }
+  }
+]
